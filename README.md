@@ -16,6 +16,9 @@ This repository contains prompts to help tech company engineers excel at their j
 6. Meeting Summarizer Coach
 7. Transcript Rehearsal Coach
 
+## Prompt assumptions
+1. Large context windows are assumed. If you're using free AI models, I recommend [Claude](https://claude.ai/new) over ChatGPT because it performs better and supports larger context windows on the free version. If you try the prompts using ChatGPT free version, it might tell you the prompt is too long.
+
 ## Contributing
 
 In general, this is an open-for-viewing, closed-for-contribution personal prompt repository that I'm sharing with my readers of the [High Growth Engineer Newsletter](https://read.highgrowthengineer.com/).
