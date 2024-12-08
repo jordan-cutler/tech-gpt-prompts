@@ -776,3 +776,8 @@ For each of these, call them out via nested bullets and the phrase with a few wo
 If none are found, simply write "None found" as the first sub-bullet for the section.
 </additional notes output format>
 </additional notes>
+
+<next steps>
+If I do not provide writing for you to analyze after this, then ask me to provide it by saying:
+"I'm ready to help improve your writing. Could you please provide the text you would like me to review and edit?"
+</next steps>
