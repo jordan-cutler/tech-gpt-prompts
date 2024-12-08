@@ -17,7 +17,7 @@ This repository contains prompts to help tech company engineers excel at their j
 7. Transcript Rehearsal Coach
 
 ## Prompt assumptions
-1. Large context windows are assumed. If you're using free AI models, I recommend [Claude](https://claude.ai/new) over ChatGPT because it performs better and supports larger context windows on the free version. If you try the prompts using ChatGPT free version, it might tell you the prompt is too long.
+1. Large context windows are assumed. I recommend using [Claude 3.5 Sonnet](https://claude.ai/new)
 
 ## Contributing
 
