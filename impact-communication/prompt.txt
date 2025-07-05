@@ -1,0 +1,224 @@
+<context>
+Level 1: What you did
+
+Level 1 is the baseline, but it’s also what you want to avoid at all costs.
+
+Here’s what this looks like:
+
+❌ Migrated the user authentication system to use OAuth 2.0
+
+In short, we only state the output rather than the outcome.
+
+Output = what you did
+
+Outcome = what the result was. The impact.
+
+In this statement, leadership has no context for why your work matters. They’re left guessing: Was the old system broken? Did this improve security? Did it save the team time?
+
+In performance reviews, you need to show both the technical accomplishment and the business impact. That brings us to the next level.
+
+Level 2: Had business impact
+
+Ok, so we know we need to communicate impact. Let’s give it a try:
+
+⚠️ Level 1: Migrated the user authentication system to OAuth 2.0, significantly reducing login failures.
+
+This is better since it mentions the security improvement, but it uses weasel words—in this case, “significantly.” The problem with them is that they’re not clear to the reader. Leadership knows there was a business impact, but it’s unclear by how much. Does significant mean 10%, 20%, 50%?
+
+As someone who works in DevEx, which is notoriously hard to measure, I’m no stranger to this category. Sometimes you’re forced into it because you don’t have perfect metrics. So don’t feel bad if you have a few statements at this level—sometimes it’s the best you can work with.
+
+However, if you do have specific numbers to use, that brings you to the next level.
+
+Level 3: Specific impact
+
+Let’s change our weasel word to a clear, specific impact:
+
+✅ Level 3: Migrated the user authentication system to OAuth 2.0, reducing login failures by 40% (from 15% to 9%).
+
+By switching from “significantly” to “by 40%,” the reduction becomes clearer and more specific. Now, leadership can visualize the impact, and if they’re aware of these metrics, they might already know how impressive that change is.
+
+Another variant you can try here is specifying the impact first.
+
+✅ Level 3: Reduced user login failures by 40% (from 15% to 9%) by migrating the authentication system to OAuth 2.0.
+
+You can decide which option you prefer based on what you want to highlight more. If you want to show technical complexity, start with the output. If you want to show impact, start with the outcome.
+
+Level 3 is great because it gives clear, specific impact. But the problem is, it still doesn’t answer the “compared to what” question. We can throw around numbers that sound great in practice all day, but if your leadership doesn’t know how good the improvement is, it ultimately won’t mean much.
+
+For example, how much better is a 2% improvement in latency compared to a 40% reduction in login failures? 🤷‍♂️ It’s not clear. That’s where level 4 comes in.
+
+Level 4: Tied to goals
+
+In addition to having a clear outcome like “reduced login failures by 40%,” you also explain how it’s connected to the original goal.
+
+✅ Level 4: Reduced user login failures by 40% (from 15% to 9%) by migrating the authentication system to OAuth 2.0. This exceeded our Q2 reliability target by 2x, allowing us to focus on new user onboarding features a month ahead of schedule.
+
+To help the reader contextualize that 40% improvement, you can include things like:
+
+Did it provide better results than expected?
+
+Did it account for a huge chunk of your team’s quarterly target?
+
+Was it delivered ahead of schedule?
+
+Showing how it connects to the original goals puts that metric in context.
+
+When sharing a metric with leadership, it might be the first time they’re seeing it or the 50th metric they’ve seen that day. By comparing it to the goal, they recognize the improvement as exceptional, rather than just seeing it as a general positive.
+
+Level 5: And dollars
+
+The two fundamental things a business does are increase revenue and reduce cost. If you can directly tie your work to that, you’re communicating impact in the language executives speak.
+
+This level ensures that you can associate a dollar amount or time saved with the actions you took.
+
+Here’s our example at Level 5:
+
+⭐ Level 5: Prevented an estimated $2.1M in annual revenue loss by reducing user login failures by 40% (from 15% to 9%) through migrating to OAuth 2.0. This exceeded our Q2 reliability target by 2x and eliminated 15 hours/week of support tickets, allowing the team to focus on new user onboarding features.
+
+This impact statement is the highest level you can strive for. It has everything from all levels:
+
+Level 1 - the output: Migrated to OAuth 2.0Level 2 - the impact: It reduced user login failuresLevel 3 - was specific: By 40%Level 4 - and tied to goals: Exceeded the Q2 reliability targetLevel 5 - and tied to dollars: Prevented $2.1M in annual revenue loss
+
+The reader sees a direct link from your work to business outcomes that any executive can understand and appreciate.
+
+One caveat is I’m using dollars generally here, but you can use other topline business metrics like MAU (Monthly Active Users) and it will have a similar impact because leaders know these metrics in extreme detail already.
+
+I’ll quickly highlight this with a metric that’s too low-level:
+
+❌ Don’t: Improved authentication token refresh rate from 2.3 seconds to 1.8 seconds, reducing cache misses by 12% in the user session management layer
+
+Even though this is specific, few business leaders will be able to make the connection of this to the metrics they care about.
+
+Instead, you need to speak their language:
+
+✅ Do: Improved MAU by 100k annually by optimizing our authentication token refresh rate from 2.3 seconds to 1.8 seconds.
+
+Even if they don’t understand the second, more technical part, it doesn’t matter because you’ve connected it to what they care about—MAU.
+
+Important callout
+
+Not every piece of work will reach Level 5, and that’s okay. The goal isn’t to artificially inflate your impact—it’s to communicate the real impact as clearly as possible.
+
+If your work doesn’t directly tie to revenue, Level 3 or 4 might be your ceiling, and that’s perfectly fine. The key is being as specific as possible with the data you have.
+
+Your performance review is your chance to tell the story of your impact. Don’t let great work get lost in translation. Make every point count.
+
+📖 TL;DR
+
+Here’s how the same piece of work looks at each level:
+
+Level 1: Migrated the user authentication system to use OAuth 2.0
+
+Level 2: Migrated the user authentication system to OAuth 2.0, significantly reducing login failures.
+
+Level 3: Migrated the user authentication system to OAuth 2.0, reducing login failures by 40% (from 15% to 9%).
+
+Level 4: Reduced user login failures by 40% (from 15% to 9%) by migrating the authentication system to OAuth 2.0. This exceeded our Q2 reliability target by 2x, allowing us to focus on new user onboarding features a month ahead of schedule.
+
+Level 5: Prevented an estimated $2.1M in annual revenue loss by reducing user login failures by 40% (from 15% to 9%) through migrating to OAuth 2.0. This exceeded our Q2 reliability target by 2x and eliminated 15 hours/week of support tickets, allowing the team to focus on new user onboarding features.
+</context>
+
+<task>
+Using your knowledge, take the input text provided to split up the various impact statements and individually score them using a level 1–5 system.
+</task>
+
+\<key\_information>
+
+* If only the output is provided → **Level 1**
+* If the output + an unclear or general impact is provided → **Level 2**
+* If the output + a specific, measurable impact is provided → **Level 3**
+* If the output + specific impact + a connection to a goal/OKR is provided → **Level 4**
+* If the output + specific impact + goal/OKR + dollar/time/metric impact is provided → **Level 5**
+* If a top-level business impact (e.g., MAU or dollars) is included but no goal/OKR connection, still give **Level 5** but note the missing goal link
+* If there's no output (e.g., "Saved \$1M") → **N/A** — it must say *what was done* to get the result
+  \</key\_information>
+
+\<output\_format>
+For **each** impact statement:
+
+1. *Repeat the statement exactly, in italics.*
+2. **Level:** *N* - *[summary]*
+3. For levels **above the current one**, list what’s needed to climb. Use this format:
+
+   * **Level X improvements: \[summary]**
+
+     * ...bullet(s) of what would help
+
+Only include levels *above* the current one. Do not include this section if the statement is Level 5.
+
+\</output\_format>
+
+<examples>
+
+<example>
+<example_input>
+Migrated the payment processing service to a new infrastructure.
+</example_input>
+
+\<example\_output>
+*Migrated the payment processing service to a new infrastructure.*
+
+**Level:** *1* - *Output only*
+
+* **Level 2 improvements: Had business impact**
+
+  * Add a high-level outcome (e.g., “improved system reliability” or “reduced downtime”).
+  * Mention directional improvement (e.g., “reduced support tickets related to checkout failures”).
+* **Level 3 improvements: Specific impact**
+
+  * Quantify the result (e.g., “reduced checkout failure rate by 22 %”).
+  * Add before/after context (e.g., “from 3.1 % to 0.9 %”).
+* **Level 4 improvements: Tied to goal or OKR**
+
+  * Link to a team or company goal (e.g., “enabled us to meet our Q1 goal of <0.5 % payment failure rate”).
+* **Level 5 improvements: Tied to dollars, time saved, or top-level business metric**
+
+  * Translate the change to dollars, time, or top-line metric (e.g., “prevented \$500K in lost revenue annually”).
+  * Add other strategic outcomes (e.g., “cut 12 hrs/week in on-call incidents”).
+    \</example\_output>
+
+    </example>
+
+<example>
+<example_input>
+Created the PerfAlert automated performance-alert system delivering weekly insights, improving issue-identification and resolution efficiency by 35 %.
+</example_input>
+
+\<example\_output>
+*Created the PerfAlert automated performance-alert system delivering weekly insights, improving issue-identification and resolution efficiency by 35 %.*
+
+**Level:** *3* - *Output and specific impact*
+
+* **Level 4 improvements: Tied to goal or OKR**
+
+  * Show goal alignment (e.g., “achieved 70 % of our ‘no-regressions’ OKR”).
+* **Level 5 improvements: Tied to dollars, time saved, or top-level business metric**
+
+  * Convert the 35 % gain into engineer hours saved or customer revenue impact.
+    \</example\_output>
+
+    </example>
+
+<example>
+<example_input>
+Designed and implemented the SmoothView component reducing layout shifts across apps; now integrated into 80 + pages, enhancing visual stability and user experience.
+</example_input>
+
+\<example\_output>
+*Designed and implemented the SmoothView component reducing layout shifts across apps; now integrated into 80 + pages, enhancing visual stability and user experience.*
+
+**Level:** *2* - *Output and vague impact*
+
+* **Level 3 improvements: Specific impact**
+
+  * Provide a specific metric (“reduced Cumulative Layout Shift by 55 %, raising Google Lighthouse scores from 68 to 92”).
+* **Level 4 improvements: Tied to goal or OKR**
+
+  * Connect that win to a business goal (SEO ranking boost, conversion-rate increase).
+* **Level 5 improvements: Tied to dollars, time saved, or top-level business metric**
+
+  * Translate the result into revenue gained, bounce-rate drop, or engineering hours saved.
+    \</example\_output>
+
+    </example>
+</examples>
