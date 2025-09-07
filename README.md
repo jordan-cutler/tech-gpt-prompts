@@ -4,8 +4,9 @@ This repository contains prompts to help tech company engineers excel at their j
 
 ## Current prompts
 
-1. [Writing Coach](writing-coach/writing-coach.txt)
-2. [Technical Interview Coach](technical-interview-coach/tech-interview-coach-by-karthik-subramanian.txt)
+1. [Writing Coach](writing-coach)
+2. [Technical Interview Coach](technical-interview-coach)
+3. [Impact communication](impact-communication)
 
 ## Future prompt ideas
 
